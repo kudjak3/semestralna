@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9636fa0-c2d6-47d9-a7f2-ca254f6225d7" name="Default Changelist" comment="" />
+    <list default="true" id="a9636fa0-c2d6-47d9-a7f2-ca254f6225d7" name="Default Changelist" comment="users a blogy">
+      <change afterPath="$PROJECT_DIR$/resources/views/blog/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Blog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Policies/UserPolicy.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Policies/UserPolicy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_20_074407_create_blogs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_20_074407_create_blogs_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/index.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -189,12 +198,24 @@
       <workItem from="1611129270301" duration="15202000" />
       <workItem from="1611146595012" duration="1461000" />
       <workItem from="1612860998862" duration="167000" />
-      <workItem from="1612861183221" duration="2897000" />
+      <workItem from="1612861183221" duration="6650000" />
     </task>
+    <task id="LOCAL-00001" summary="users a blogy">
+      <created>1612865321306</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612865321306</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="users a blogy" />
+    <option name="LAST_COMMIT_MESSAGE" value="users a blogy" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1611144199036">
@@ -277,10 +298,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="196" height="471" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1611129875343" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1612865231836">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1612865328024">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612865231836" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612865328024" />
     <state x="859" y="397" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1611143888172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

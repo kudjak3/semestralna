@@ -16,8 +16,8 @@ class BlogController extends Controller
      */
     public function index(Request $request)
     {
-        $blog = Blog::paginate(25);
-        return view('blog.index',['blog'=> $blog]);
+        $blogs = Blog::paginate(25);
+        return view('blog.index',['blogs'=> $blogs]);
     }
 
     /**
@@ -51,11 +51,11 @@ class BlogController extends Controller
      * Display the specified resource.
      *
      * @param  \App\Models\Blog  $blog
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\Http\Response
      */
     public function show(Blog $blog)
     {
-        //
+        return view('blog.show',['blog'=> $blog]);
     }
 
     /**
