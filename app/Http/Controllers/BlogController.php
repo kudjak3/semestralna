@@ -42,7 +42,6 @@ class BlogController extends Controller
     public function store(Request $request)
     {
         $blog = Blog::create($request->all());
-        $blog->user_id = Auth::user()->id;
         $blog->save();
         return redirect()->route('blog.index');
     }

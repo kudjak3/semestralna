@@ -13,8 +13,7 @@
         <introspection-scope>
           <node kind="schema">
             <name qname="@" />
-            <name qname="schema" />
-            <name qname="semester" />
+            <name qname="s" />
           </node>
         </introspection-scope>
       </schema-mapping>

@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Auth;
 
 class Blog extends Model
 {
@@ -14,10 +15,15 @@ class Blog extends Model
                     'text',
         ];
 
-    protected $user_id;
 
     public function user()
     {
         return $this->belongsTo(User::class);
+    }
+
+    public function setTitleAttribute($value)
+    {
+        $this->attributes['user_id'] = Auth::user()->id;
+        $this->attributes['title'] = $value;
     }
 }
