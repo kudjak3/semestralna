@@ -18,11 +18,23 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/css.css') }}" rel="stylesheet">
+    <style>
+
+        #logo{
+            width: 40px;
+            height: 40px;
+        }
+
+    </style>
 </head>
 <body>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
+                <a class="navbar-brand" href="{{ url('1') }}">Chelsea London
+                    <img id="logo" src="https://upload.wikimedia.org/wikipedia/fr/thumb/5/51/Logo_Chelsea.svg/600px-Logo_Chelsea.svg.png" alt="">
+                </a>
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
                 </a>

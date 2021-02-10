@@ -54,7 +54,7 @@ class BlogPolicy
      */
     public function update(User $user, Blog $blog)
     {
-        return true;
+        return $blog->user_id == $user->id;
     }
 
     /**

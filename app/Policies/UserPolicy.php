@@ -79,7 +79,7 @@ class UserPolicy
      */
     public function restore(User $user, User $model)
     {
-        //return Auth::user()->email == 'admin@admin.admin';
+        //
     }
 
     /**

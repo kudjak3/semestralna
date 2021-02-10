@@ -16,10 +16,6 @@
                             </div>
                         @endif
                             <p class="card-text">{{$blog->text}}</p>
-                            <div class="mb-3">
-                            <a href="{{ route('blog.edit',[$blog->id]) }}" class="btn btn-success" role="button">Edit blog</a>
-                            <a href="{{ route('blog.delete',[$blog]) }}" class="btn btn-danger" role="button">Delete blog</a>
-                        </div>
                     </div>
                 </div>
             </div>

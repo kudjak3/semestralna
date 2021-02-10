@@ -1,46 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-    <style>
-        h1{
-            color: #18518e;
-            text-align: center;
-            font-family: fantasy;
-            font-size: 5rem;
-        }
-        h2{
-            text-align: center;
-            font-family: "Berlin Sans FB";
-            font-size: 3rem;
-            font-style: oblique;
-        }
-        h3{
-            text-align: center;
-            font-family: "Cambria";
-            font-size: 3rem;
-        }
-        h4{
-            text-align: center;
-            font-family: "Dubai";
-        }
-        #p1 {
-            text-align: center;
-            font-family: "serif";
-            font-size: 1.5rem;
-            font-style: italic;
-        }
-        #p2 {
-            text-align: center;
-            font-family: "cursive";
-            font-size: 1.5rem;
-        }
-        .d-block{
-            height: 700px;
-        }
-        #carouselExampleIndicators{
-            height: 700px;
-        }
-    </style>
     <div class="container">
         <h1>Welcome Chelsea fans</h1>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
