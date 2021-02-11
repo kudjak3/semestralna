@@ -15,7 +15,6 @@ class AddAvatarPhoneAvatarUsersTable extends Migration
     {
         Schema::table('users', function (Blueprint $table) {
             $table->string('phone')->nullable();
-            $table->string('avatar')->nullable();
             $table->string('country')->nullable();
         });
     }
