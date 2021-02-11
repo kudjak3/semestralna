@@ -29,7 +29,6 @@ table {
 }
 
 td, th {
-    border: 2px solid #4aa0e6;
     text-align: center;
     padding: 8px;
 }
@@ -39,9 +38,6 @@ td {
     font-size: large;
 }
 
-tr:nth-child(even) {
-    background-color: #b0d4f1;
-}
 
 h1{
     color: #18518e;
@@ -52,7 +48,7 @@ h1{
 h2{
     text-align: center;
     font-family: "Berlin Sans FB";
-    font-size: 3rem;
+    font-size: 2rem;
     font-style: oblique;
 }
 h3{
@@ -91,4 +87,35 @@ h4{
 #logo{
     width: 40px;
     height: 40px;
+}
+#cardh{
+    color: white;
+    background-color:  #18518e;
+    text-align: center;
+    font-family: "serif";
+    font-size: 1.5rem;
+}
+#head{
+    color: white;
+    background-color:  #18518e;
+    text-align: center;
+
+}
+
+#head2 {
+    color: white;
+    background-color: #18518e;
+    text-align: center;
+    font-family: "cursive";
+    font-size: 2rem;
+}
+
+#text{
+
+    font-size: 1rem;
+}
+#index{
+    color: white;
+    font-size: 1rem;
+    font-family: "serif";
 }

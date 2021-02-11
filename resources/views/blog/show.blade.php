@@ -1,11 +1,10 @@
 @extends('layouts.app')
-
 @section('content')
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12">
                 <div class="card">
-                    <div class="card-header">{{ $blog->title }}</div>
+                    <div  id="head2" class="card-header">{{ $blog->title }}</div>
 
                     <div class="card-body">
                         @if (session('status'))
@@ -13,7 +12,7 @@
                                 {{ session('status') }}
                             </div>
                         @endif
-                        <p class="card-text">{{$blog->text}}</p>
+                        <p id="text" class="card-text">{{$blog->text}}</p>
                             @can('update', $blog)
                             <div class="mb-3">
                                 <a href="{{ route('blog.edit',[$blog->id]) }}" class="btn btn-success" role="button">Edit blog</a>
@@ -74,8 +73,4 @@
             </div>
         @endforeach
     </div>
-
-    <script>
-        ajax
-    </script>
 @endsection

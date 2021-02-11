@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9636fa0-c2d6-47d9-a7f2-ca254f6225d7" name="Default Changelist" comment=" ajaxi">
+    <list default="true" id="a9636fa0-c2d6-47d9-a7f2-ca254f6225d7" name="Default Changelist" comment=" ajaxi hotovo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/user/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -221,7 +226,7 @@
       <workItem from="1612983824721" duration="1641000" />
       <workItem from="1612985534468" duration="2981000" />
       <workItem from="1612988542675" duration="30620000" />
-      <workItem from="1613068587585" duration="1216000" />
+      <workItem from="1613068587585" duration="6377000" />
     </task>
     <task id="LOCAL-00001" summary="users a blogy">
       <created>1612865321306</created>
@@ -279,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613069006822</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary=" ajaxi hotovo">
+      <created>1613069883523</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1613069883523</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +318,8 @@
     <MESSAGE value=" commenty zaciatok" />
     <MESSAGE value=" commenty" />
     <MESSAGE value=" ajaxi" />
-    <option name="LAST_COMMIT_MESSAGE" value=" ajaxi" />
+    <MESSAGE value=" ajaxi hotovo" />
+    <option name="LAST_COMMIT_MESSAGE" value=" ajaxi hotovo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1611144199036">
@@ -321,10 +334,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611129757711" />
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613061392467">
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613075273683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613061392467" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613075273683" />
     <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1613064516633">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -389,10 +402,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="196" height="471" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1611129875343" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1613069008213">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1613069885341">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613069008213" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613069885341" />
     <state x="859" y="397" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1612991979244">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -429,10 +442,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="677" y="291" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611073351052" />
-    <state x="1022" y="241" key="run.anything.popup" timestamp="1612890035002">
+    <state x="1022" y="241" key="run.anything.popup" timestamp="1613073872702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1022" y="241" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612890035002" />
+    <state x="1022" y="241" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613073872702" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1611126266885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

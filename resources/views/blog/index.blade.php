@@ -6,8 +6,8 @@
         <div class="row justify-content-center">
             <div class="col-md-12">
                 <div class="card">
-                    <div class="card-header">
-                        <a href="{{ route('blog.show',[$blog]) }}">{{ $blog->title }}</a>
+                    <div class="card-header" id="head">
+                        <a id="index" href="{{ route('blog.show',[$blog]) }}">{{ $blog->title }}</a>
                     </div>
                     <div class="card-body">
                         @if (session('status'))
@@ -22,5 +22,7 @@
         </div>
     </div>
     @endforeach
-    <a href="{{ route('blog.create') }}" class="btn btn-success" role="button">Add blog</a>
+    <div class="container" >
+    <a href="{{ route('blog.create') }}" id="but" class="btn btn-success" role="button">Add blog</a>
+    </div>
 @endsection
