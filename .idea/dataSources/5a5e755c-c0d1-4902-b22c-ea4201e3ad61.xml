@@ -5345,25 +5345,21 @@
       <Position>10</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <column id="1270" parent="419" name="avatar">
+    <column id="1270" parent="419" name="country">
       <Position>11</Position>
       <DataType>varchar(255)|0s</DataType>
     </column>
-    <column id="1271" parent="419" name="country">
-      <Position>12</Position>
-      <DataType>varchar(255)|0s</DataType>
-    </column>
-    <index id="1272" parent="419" name="users_email_unique">
+    <index id="1271" parent="419" name="users_email_unique">
       <ColNames>email</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="1273" parent="419" name="PRIMARY">
+    <key id="1272" parent="419" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="1274" parent="419" name="users_email_unique">
+    <key id="1273" parent="419" name="users_email_unique">
       <ColNames>email</ColNames>
       <UnderlyingIndexName>users_email_unique</UnderlyingIndexName>
     </key>

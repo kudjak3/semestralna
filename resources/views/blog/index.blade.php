@@ -15,7 +15,8 @@
                                 {{ session('status') }}
                             </div>
                         @endif
-                            <p class="card-text">{{$blog->text}}</p>
+                            <p class="card-text">{{substr(strip_tags($blog->text), 0, 300)}} read more...</p>
+
                     </div>
                 </div>
             </div>
