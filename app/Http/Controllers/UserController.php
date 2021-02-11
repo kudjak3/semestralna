@@ -59,11 +59,21 @@ class UserController extends Controller
      * Display the specified resource.
      *
      * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\Http\Response
      */
     public function show($id)
     {
+        $user = User::findOrFail($id);
+        $blogs = $user->blogs()->orderBy('created_at','desc')->get();
+        $numberOfBlogs = $blogs->count();
+        $numberOfComments = $user->comments->count();
 
+        return view('user.show', [
+            'user' => $user,
+            'blogs' => $blogs,
+            'numberOfBlogs' => $numberOfBlogs,
+            'numberOfComments' => $numberOfComments
+        ]);
     }
 
     /**
