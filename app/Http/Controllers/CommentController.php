@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Comment;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class CommentController extends Controller
 {
@@ -30,11 +32,21 @@ class CommentController extends Controller
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Http\RedirectResponse
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'comment_text' => 'required|max:1000',
+        ]);
+
+        Comment::create([
+            'comment_text' => $request->comment_text,
+            'user_id' => Auth::user()->id,
+            'blog_id' => $request->post_id
+        ]);
+
+        return redirect()->route('blog.show', $request->post_id);
     }
 
     /**
@@ -75,10 +87,15 @@ class CommentController extends Controller
      * Remove the specified resource from storage.
      *
      * @param  int  $id
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Http\RedirectResponse
      */
     public function destroy($id)
     {
-        //
+        $comment = Comment::findOrFail($id);
+        $this->authorize($comment);
+        $comment->delete();
+
+        return redirect()->back();
+
     }
 }

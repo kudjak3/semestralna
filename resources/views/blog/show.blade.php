@@ -25,4 +25,57 @@
             </div>
         </div>
     </div>
+    @auth
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <hr>
+                    <h2>Comments:</h2>
+                    <div class="card-body">
+                        <form id="commentForm" method="POST" action="{{ route('comment.store') }}">
+                            @csrf
+                            <div class="form-group">
+                                <textarea class="summernote" id="summernote" name="comment_text"></textarea>
+                                <input type="hidden" id="post_id" name="post_id" value="{{ $blog->id }}">
+                            </div>
+                            <button type="submit" class="btn btn-success btn-block">Add comment</button>
+                        </form>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    @endauth
+
+    <div>
+        @foreach($blog->comments as $comment)
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="container" id="comments">
+                        <div class="card">
+                            <div class="comment-article">
+                                <article>
+                                    <div><p class="card-text">{!! $comment->comment_text !!}</p></div>
+                                    <footer>
+                                        @can('delete', $comment)
+                                            <div class="float-left">
+                                                <a href="{{ route('comment.delete', [$comment->id]) }}"><small>Delete</small></a>
+                                            </div>
+                                        @endcan
+                                        <div class="float-right">
+                                            <small><b>comment by </b></small><a href="{{ route('user.show', [$comment->user->id]) }}"><small><b>{{ $comment->user->name }}</b></small></a>
+                                        </div>
+                                    </footer>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        @endforeach
+    </div>
+
+    <script>
+        ajax
+    </script>
 @endsection

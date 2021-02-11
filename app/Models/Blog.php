@@ -21,6 +21,11 @@ class Blog extends Model
         return $this->belongsTo(User::class);
     }
 
+    public function comments()
+    {
+        return $this->hasMany(Comment::class);
+    }
+
     public function setTitleAttribute($value)
     {
         $this->attributes['user_id'] = Auth::user()->id;

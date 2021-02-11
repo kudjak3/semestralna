@@ -21,6 +21,8 @@ class UserController extends Controller
         $grid = new Datagrid($users, $request->get('f',[]));
         $grid->setColumn('name','Full name')
             ->setColumn('email','Email adress')
+            ->setColumn('phone','Phone Number')
+            ->setColumn('country','Country')
             ->setActionColumn([
                 'wrapper' => function($value, $row) {
                     if (Auth::user()->email == 'admin@admin.admin') {
@@ -105,7 +107,7 @@ class UserController extends Controller
         $request->validate([
             'name' => 'required',
             'email' => 'required|email|unique:users,email,' . $user->id,
-            'password' => 'required|min:6|confirmed',
+            'password' => 'required|min:6',
         ]);
 
         $user->update($request->all());

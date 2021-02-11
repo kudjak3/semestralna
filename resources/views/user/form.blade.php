@@ -26,6 +26,18 @@
         </div>
     </div>
     <div class="form-group">
+        <label for="phone" >Phone number</label>
+        <div class="col-sm-10">
+            <input type="phone" class="form-control" id="phone" name="phone"   placeholder="Enter phone number" value="{{ old('phone',@$model->phone) }}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="country" >Country</label>
+        <div class="col-sm-10">
+            <input type="country" class="form-control" id="country" name="country"   placeholder="Enter your country" value="{{ old('country',@$model->country) }}">
+        </div>
+    </div>
+    <div class="form-group">
         <input type="submit" class="btn btn-primary form-control">
     </div>
 </form>
