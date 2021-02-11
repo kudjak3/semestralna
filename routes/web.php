@@ -32,6 +32,7 @@ Route::group(['middleware' => ['auth']], function () {
     Route::resource('blog', BlogController::class);
     Route::resource('comment', CommentController::class);
     Route::get('user/{user}/delete', [UserController::class,'destroy'])->name( 'user.delete');
+    Route::get('user/{user}/delete', [UserController::class,'destroy'])->name( 'user.delete');
     Route::get('blog/{blog}/delete', [BlogController::class,'destroy'])->name( 'blog.delete');
     Route::get('comment/{comment}/delete', [CommentController::class, 'destroy'])->name('comment.delete');
 });

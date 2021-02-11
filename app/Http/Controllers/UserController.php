@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use Aginev\Datagrid\Datagrid;
+use App\Models\Blog;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -18,22 +18,7 @@ class UserController extends Controller
     public function index(Request $request)
     {
         $users = User::paginate(25);
-        $grid = new Datagrid($users, $request->get('f',[]));
-        $grid->setColumn('name','Full name')
-            ->setColumn('email','Email adress')
-            ->setColumn('phone','Phone Number')
-            ->setColumn('country','Country')
-            ->setActionColumn([
-                'wrapper' => function($value, $row) {
-                    if (Auth::user()->email == 'admin@admin.admin') {
-                        return '<a href="' . route('user.edit', [$row->id]) . '" title="Edit" class="btn btn-sm btn-primary">Edit</a>
-                    <a href="' . route('user.delete', [$row->id]) . '" title="Delete" data-method="DELETE" class="btn btn-sm btn-danger" data-confirm="Are you sure?">Delete</a>';
-
-                    }
-                }
-            ]);
-        return view('user.index',['grid'=> $grid
-        ]);
+        return view('user.index',['users'=> $users]);
     }
 
     /**
@@ -43,29 +28,31 @@ class UserController extends Controller
      */
     public function create()
     {
-        return view('user.create', [
-            'action' => route('user.store'),
-            'method' => 'post'
-        ]);
+       //
     }
 
     /**
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\RedirectResponse
+     * @return \Illuminate\Http\JsonResponse
      */
     public function store(Request $request)
     {
         $request->validate([
-            'name' => 'required',
+            'name'=>'required',
             'email' => 'required|email|unique:users,email',
             'password' => 'required|min:6',
         ]);
 
-        $user = User::create($request->all());
+        $user = new User();
+        $user->name = $request->name;
+        $user->email = $request->email;
+        $user->password = $request->password;
+        $this->authorize('create', User::class);
         $user->save();
-        return redirect()->route('user.index');
+        return response()->json($user);
+
     }
 
     /**
@@ -119,11 +106,13 @@ class UserController extends Controller
      * Remove the specified resource from storage.
      *
      * @param  int  $id
-     * @return \Illuminate\Http\RedirectResponse
+     * @return \Illuminate\Http\JsonResponse
      */
-    public function destroy(User $user)
+    public function destroy($id)
     {
+        $user = User::findOrFail($id);
+        $this->authorize('delete', $user);
         $user->delete();
-        return redirect()->route('user.index');
+        return response()->json(['deleted' =>'User deleted']);
     }
 }

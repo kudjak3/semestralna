@@ -19,18 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9636fa0-c2d6-47d9-a7f2-ca254f6225d7" name="Default Changelist" comment=" commenty zaciatok">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5a5e755c-c0d1-4902-b22c-ea4201e3ad61.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/5a5e755c-c0d1-4902-b22c-ea4201e3ad61.xml" afterDir="false" />
+    <list default="true" id="a9636fa0-c2d6-47d9-a7f2-ca254f6225d7" name="Default Changelist" comment=" commenty">
+      <change beforePath="$PROJECT_DIR$/.idea/semestralna.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/semestralna.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CommentController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Comment.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_19_165242_alter_table_users_add_soft_delete.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_02_10_194921_addfkblog.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_02_10_194921_add_fk_blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/user/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +177,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.data.extractors.current.export.id" value="SQL Inserts" />
     <property name="database.data.extractors.current.id" value="SQL Inserts" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vaii2-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -231,7 +224,8 @@
       <workItem from="1612983218392" duration="584000" />
       <workItem from="1612983824721" duration="1641000" />
       <workItem from="1612985534468" duration="2981000" />
-      <workItem from="1612988542675" duration="23838000" />
+      <workItem from="1612988542675" duration="30620000" />
+      <workItem from="1613068587585" duration="364000" />
     </task>
     <task id="LOCAL-00001" summary="users a blogy">
       <created>1612865321306</created>
@@ -275,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613028920197</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=" commenty">
+      <created>1613061285905</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1613061285905</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +301,8 @@
     <MESSAGE value=" blogy migracie" />
     <MESSAGE value=" commenty migracie" />
     <MESSAGE value=" commenty zaciatok" />
-    <option name="LAST_COMMIT_MESSAGE" value=" commenty zaciatok" />
+    <MESSAGE value=" commenty" />
+    <option name="LAST_COMMIT_MESSAGE" value=" commenty" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1611144199036">
@@ -315,14 +317,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611129757711" />
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613044845295">
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1613061392467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613044845295" />
-    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1612882774915">
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613061392467" />
+    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1613064516633">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612882774915" />
+    <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613064516633" />
     <state x="834" y="418" key="Github.ShareDialog" timestamp="1612862379898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -383,10 +385,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="196" height="471" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1611129875343" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1613028926972">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1613061292555">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613028926972" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613061292555" />
     <state x="859" y="397" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1612991979244">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
