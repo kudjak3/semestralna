@@ -19,12 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9636fa0-c2d6-47d9-a7f2-ca254f6225d7" name="Default Changelist" comment=" commenty">
-      <change beforePath="$PROJECT_DIR$/.idea/semestralna.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/semestralna.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+    <list default="true" id="a9636fa0-c2d6-47d9-a7f2-ca254f6225d7" name="Default Changelist" comment=" ajaxi">
       <change beforePath="$PROJECT_DIR$/resources/views/user/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +221,7 @@
       <workItem from="1612983824721" duration="1641000" />
       <workItem from="1612985534468" duration="2981000" />
       <workItem from="1612988542675" duration="30620000" />
-      <workItem from="1613068587585" duration="364000" />
+      <workItem from="1613068587585" duration="1216000" />
     </task>
     <task id="LOCAL-00001" summary="users a blogy">
       <created>1612865321306</created>
@@ -276,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613061285905</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=" ajaxi">
+      <created>1613069006822</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1613069006822</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +305,8 @@
     <MESSAGE value=" commenty migracie" />
     <MESSAGE value=" commenty zaciatok" />
     <MESSAGE value=" commenty" />
-    <option name="LAST_COMMIT_MESSAGE" value=" commenty" />
+    <MESSAGE value=" ajaxi" />
+    <option name="LAST_COMMIT_MESSAGE" value=" ajaxi" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1611144199036">
@@ -385,10 +389,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="196" height="471" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1611129875343" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1613061292555">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1613069008213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613061292555" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613069008213" />
     <state x="859" y="397" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1612991979244">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
