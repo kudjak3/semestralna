@@ -28,11 +28,9 @@
                     <div class="container profile-posts-list">
                         <div class="card">
                             <div class="profile-posts-list-c" >
-                                <article>
-                                    <header><a href="{{ url('blogs', @$blog->id) }}"><h5> {{ @$blog->title }} </h5> </a> </header>
+                                    <header><a href="{{ url('blog', @$blog->id) }}"><h5> {{ @$blog->title }} </h5> </a> </header>
                                     <time class="card-text text-muted">{{ @$blog->created_at }}</time>
-                                    <div><p class="card-text">{{ substr(strip_tags($blog->article), 0, 100) }}...</p></div>
-                                </article>
+                                    <div><p class="card-text">{{ substr(strip_tags($blog->text), 0, 100) }}...</p></div>
                             </div>
                         </div>
                     </div>

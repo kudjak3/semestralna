@@ -96,4 +96,5 @@ class BlogController extends Controller
         $blog->delete();
         return redirect()->route('blog.index');
     }
+
 }

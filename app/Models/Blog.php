@@ -15,7 +15,6 @@ class Blog extends Model
                     'text',
         ];
 
-
     public function user()
     {
         return $this->belongsTo(User::class);

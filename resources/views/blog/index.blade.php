@@ -16,7 +16,6 @@
                             </div>
                         @endif
                             <p class="card-text">{{substr(strip_tags($blog->text), 0, 300)}} read more...</p>
-
                     </div>
                 </div>
             </div>

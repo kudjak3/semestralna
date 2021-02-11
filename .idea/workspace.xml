@@ -19,10 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9636fa0-c2d6-47d9-a7f2-ca254f6225d7" name="Default Changelist" comment="policy a css">
-      <change afterPath="$PROJECT_DIR$/resources/views/user/show.blade.php" afterDir="false" />
+    <list default="true" id="a9636fa0-c2d6-47d9-a7f2-ca254f6225d7" name="Default Changelist" comment="posledne upravy">
+      <change afterPath="$PROJECT_DIR$/resources/views/blog/uploadImage.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Blog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Policies/BlogPolicy.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Policies/BlogPolicy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user/show.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +39,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
@@ -223,7 +226,7 @@
       <workItem from="1612983824721" duration="1641000" />
       <workItem from="1612985534468" duration="2981000" />
       <workItem from="1612988542675" duration="30620000" />
-      <workItem from="1613068587585" duration="7792000" />
+      <workItem from="1613068587585" duration="12327000" />
     </task>
     <task id="LOCAL-00001" summary="users a blogy">
       <created>1612865321306</created>
@@ -295,7 +298,28 @@
       <option name="project" value="LOCAL" />
       <updated>1613075605459</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="show user a posledne upravy">
+      <created>1613076833137</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1613076833137</updated>
+    </task>
+    <task id="LOCAL-00012" summary="posledne upravy">
+      <created>1613077491863</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1613077491863</updated>
+    </task>
+    <task id="LOCAL-00013" summary="posledne upravy">
+      <created>1613079706016</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1613079706016</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +348,9 @@
     <MESSAGE value=" ajaxi" />
     <MESSAGE value=" ajaxi hotovo" />
     <MESSAGE value="policy a css" />
-    <option name="LAST_COMMIT_MESSAGE" value="policy a css" />
+    <MESSAGE value="show user a posledne upravy" />
+    <MESSAGE value="posledne upravy" />
+    <option name="LAST_COMMIT_MESSAGE" value="posledne upravy" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1611144199036">
@@ -355,22 +381,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="225" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612862389992" />
-    <state width="1877" height="349" key="GridCell.Tab.0.bottom" timestamp="1613054125378">
+    <state width="1877" height="349" key="GridCell.Tab.0.bottom" timestamp="1613078050330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="349" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613054125378" />
-    <state width="1877" height="349" key="GridCell.Tab.0.center" timestamp="1613054125378">
+    <state width="1877" height="349" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613078050330" />
+    <state width="1877" height="349" key="GridCell.Tab.0.center" timestamp="1613078050330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="349" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613054125378" />
-    <state width="1877" height="349" key="GridCell.Tab.0.left" timestamp="1613054125378">
+    <state width="1877" height="349" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613078050330" />
+    <state width="1877" height="349" key="GridCell.Tab.0.left" timestamp="1613078050330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="349" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613054125378" />
-    <state width="1877" height="349" key="GridCell.Tab.0.right" timestamp="1613054125378">
+    <state width="1877" height="349" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613078050330" />
+    <state width="1877" height="349" key="GridCell.Tab.0.right" timestamp="1613078050330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="349" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613054125378" />
+    <state width="1877" height="349" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613078050330" />
     <state width="1877" height="349" key="GridCell.Tab.1.bottom" timestamp="1613054125379">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -407,10 +433,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="196" height="471" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1611129875343" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1613075607423">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1613079713314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613075607423" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613079713314" />
     <state x="859" y="397" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1612991979244">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -435,10 +461,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="818" y="258" width="576" height="524" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611135187914" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612983318744">
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613082034462">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612983318744" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1613082034462" />
     <state x="667" y="76" width="585" height="888" key="find.popup" timestamp="1611083289275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -447,10 +473,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="677" y="291" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611073351052" />
-    <state x="1022" y="241" key="run.anything.popup" timestamp="1613073872702">
+    <state x="1022" y="241" key="run.anything.popup" timestamp="1613080008028">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1022" y="241" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613073872702" />
+    <state x="1022" y="241" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613080008028" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1611126266885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
