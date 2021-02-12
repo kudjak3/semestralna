@@ -4,12 +4,11 @@
     @method($method)
     <div class="form-group">
         <label for="title">Title</label>
-        <input type="title" class="form-control" id="title" name="title" placeholder="title" value="{{ @$model->title }}">
-    </div>
+        <input type="text" class="form-control" id="title" name="title" placeholder="title" value="{{ @$model->title }}">
     </div>
     <div class="form-group">
         <label for="text">Textarea</label>
-        <textarea type="text"  class="form-control" id="text" name="text" placeholder="text"  rows="3" value="{{ @$model->text }}" ></textarea>
+        <input type="text"  class="form-control" id="text" name="text" placeholder="text"  value="{{ @$model->text }}" >
     </div>
     <div class="form-group">
         <input type="submit" class="btn btn-primary form-control">

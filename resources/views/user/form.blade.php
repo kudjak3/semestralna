@@ -9,7 +9,7 @@
     <div class="form-group">
         <label for="name" >Full name</label>
         <div class="col-sm-10">
-            <input type="name" class="form-control" id="name" name="name" placeholder="Full name" value="{{ old('name',@$model->name) }}">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Full name" value="{{ old('name',@$model->name) }}">
         </div>
     </div>
     <div class="form-group">
@@ -28,13 +28,13 @@
     <div class="form-group">
         <label for="phone" >Phone number</label>
         <div class="col-sm-10">
-            <input type="phone" class="form-control" id="phone" name="phone"   placeholder="Enter phone number" value="{{ old('phone',@$model->phone) }}">
+            <input type="number" class="form-control" id="phone" name="phone"   placeholder="Enter phone number" value="{{ old('phone',@$model->phone) }}">
         </div>
     </div>
     <div class="form-group">
         <label for="country" >Country</label>
         <div class="col-sm-10">
-            <input type="country" class="form-control" id="country" name="country"   placeholder="Enter your country" value="{{ old('country',@$model->country) }}">
+            <input type="text" class="form-control" id="country" name="country"   placeholder="Enter your country" value="{{ old('country',@$model->country) }}">
         </div>
     </div>
     <div class="form-group">

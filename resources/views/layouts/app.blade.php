@@ -26,22 +26,19 @@
             <div class="container">
                 <a class="navbar-brand" href="{{ url('1') }}">Chelsea London
                     <img id="logo" src="https://upload.wikimedia.org/wikipedia/fr/thumb/5/51/Logo_Chelsea.svg/600px-Logo_Chelsea.svg.png" alt="">
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                </a>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-                        @auth
+                        <li>
                             <a class="nav-link" href="{{ route('user.index') }}">{{ __('Users') }}</a>
-                        @endauth
+                        </li>
                     </ul>
                     <ul class="navbar-nav mr-auto">
-                        @auth
+                        <li>
                             <a class="nav-link" href="{{ route('blog.index') }}">{{ __('Blogs') }}</a>
-                        @endauth
+                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -61,7 +58,7 @@
                             @endif
                         @else
                             <li class="nav-item dropdown">
-                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     {{ Auth::user()->name }}
                                 </a>
 

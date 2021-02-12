@@ -19,12 +19,14 @@
                     <div class="card-body">
                         <table class="table table-hover" id="users_table">
                             <thead>
+                            <tr>
                             <th>Email</th>
                             <th>Full Name</th>
                             <th>Phone Number</th>
                             <th>Country</th>
                             <th>Delete User</th>
                             <th>Edit User</th>
+                            </tr>
                             </thead>
                             <tbody>
                             @foreach($users as $user)
@@ -42,6 +44,8 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
         </div>
     </div>
 
@@ -118,6 +122,4 @@
             });
         });
     </script>
-
-
 @endsection

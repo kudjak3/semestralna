@@ -6,8 +6,8 @@
         <div class="row justify-content-center">
             <div class="col-md-12">
                 <div class="card">
-                    <div class="card-header" id="head">
-                        <a id="index" href="{{ route('blog.show',[$blog]) }}">{{ $blog->title }}</a>
+                    <div class="card-header">
+                        <a class="card-header" href="{{ route('blog.show',[$blog]) }}">{{ $blog->title }} </a>
                     </div>
                     <div class="card-body">
                         @if (session('status'))

@@ -95,12 +95,13 @@ h4{
     font-family: "serif";
     font-size: 1.5rem;
 }
-#head{
+div.card-header{
     color: white;
     background-color:  #18518e;
     text-align: center;
 
 }
+
 
 #head2 {
     color: white;
@@ -114,7 +115,7 @@ h4{
 
     font-size: 1rem;
 }
-#index{
+a.card-header{
     color: white;
     font-size: 1rem;
     font-family: "serif";
